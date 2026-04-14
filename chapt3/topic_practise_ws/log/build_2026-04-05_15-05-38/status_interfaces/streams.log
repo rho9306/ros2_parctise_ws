@@ -1,0 +1,28 @@
+[0.019s] Invoking command in '/home/rho9/chapt3/topic_practise_ws/build/status_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/rho9/chapt3/topic_practise_ws/src/status_interfaces -DCMAKE_INSTALL_PREFIX=/home/rho9/chapt3/topic_practise_ws/install/status_interfaces
+[0.281s] -- The C compiler identification is GNU 13.3.0
+[1.099s] -- The CXX compiler identification is GNU 13.3.0
+[1.566s] -- Detecting C compiler ABI info
+[1.794s] -- Detecting C compiler ABI info - done
+[1.802s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.803s] -- Detecting C compile features
+[1.803s] -- Detecting C compile features - done
+[1.880s] -- Detecting CXX compiler ABI info
+[2.131s] -- Detecting CXX compiler ABI info - done
+[2.140s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.141s] -- Detecting CXX compile features
+[2.141s] -- Detecting CXX compile features - done
+[2.151s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[2.291s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.421s] -- Found builtin_interfaces: 2.0.3 (/opt/ros/jazzy/share/builtin_interfaces/cmake)
+[2.593s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[2.612s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[2.640s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.662s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.683s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[2.703s] -- Found rosidl_adapter: 4.6.7 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[2.708s] [31mCMake Error at CMakeLists.txt:13 (rosidl_genterate_interfaces):
+[2.708s]   Unknown CMake command "rosidl_genterate_interfaces".
+[2.708s] 
+[2.708s] [0m
+[2.708s] -- Configuring incomplete, errors occurred!
+[2.714s] Invoked command in '/home/rho9/chapt3/topic_practise_ws/build/status_interfaces' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/rho9/chapt3/topic_practise_ws/src/status_interfaces -DCMAKE_INSTALL_PREFIX=/home/rho9/chapt3/topic_practise_ws/install/status_interfaces

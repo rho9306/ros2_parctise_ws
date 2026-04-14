@@ -1,0 +1,38 @@
+[1.004s] Invoking command in '/home/rho9/chapt2/chapt2_ws/src/demo_python_pkg': PYTHONPATH=/home/rho9/chapt2/chapt2_ws/build/demo_python_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rho9/chapt2/chapt2_ws/install/demo_python_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/demo_python_pkg build --build-base /home/rho9/chapt2/chapt2_ws/build/demo_python_pkg/build install --record /home/rho9/chapt2/chapt2_ws/build/demo_python_pkg/install.log --single-version-externally-managed install_data
+[1.254s] running egg_info
+[1.255s] creating ../../build/demo_python_pkg/demo_python_pkg.egg-info
+[1.271s] writing ../../build/demo_python_pkg/demo_python_pkg.egg-info/PKG-INFO
+[1.271s] writing dependency_links to ../../build/demo_python_pkg/demo_python_pkg.egg-info/dependency_links.txt
+[1.272s] writing entry points to ../../build/demo_python_pkg/demo_python_pkg.egg-info/entry_points.txt
+[1.272s] writing requirements to ../../build/demo_python_pkg/demo_python_pkg.egg-info/requires.txt
+[1.272s] writing top-level names to ../../build/demo_python_pkg/demo_python_pkg.egg-info/top_level.txt
+[1.272s] writing manifest file '../../build/demo_python_pkg/demo_python_pkg.egg-info/SOURCES.txt'
+[1.305s] reading manifest file '../../build/demo_python_pkg/demo_python_pkg.egg-info/SOURCES.txt'
+[1.306s] adding license file 'LICENSE'
+[1.306s] writing manifest file '../../build/demo_python_pkg/demo_python_pkg.egg-info/SOURCES.txt'
+[1.306s] running build
+[1.307s] running build_py
+[1.307s] creating /home/rho9/chapt2/chapt2_ws/build/demo_python_pkg/build
+[1.307s] creating /home/rho9/chapt2/chapt2_ws/build/demo_python_pkg/build/lib
+[1.307s] creating /home/rho9/chapt2/chapt2_ws/build/demo_python_pkg/build/lib/demo_python_pkg
+[1.307s] copying demo_python_pkg/__init__.py -> /home/rho9/chapt2/chapt2_ws/build/demo_python_pkg/build/lib/demo_python_pkg
+[1.308s] copying demo_python_pkg/python_node.py -> /home/rho9/chapt2/chapt2_ws/build/demo_python_pkg/build/lib/demo_python_pkg
+[1.308s] running install
+[1.314s] running install_lib
+[1.331s] creating /home/rho9/chapt2/chapt2_ws/install/demo_python_pkg/lib/python3.12/site-packages/demo_python_pkg
+[1.331s] copying /home/rho9/chapt2/chapt2_ws/build/demo_python_pkg/build/lib/demo_python_pkg/__init__.py -> /home/rho9/chapt2/chapt2_ws/install/demo_python_pkg/lib/python3.12/site-packages/demo_python_pkg
+[1.331s] copying /home/rho9/chapt2/chapt2_ws/build/demo_python_pkg/build/lib/demo_python_pkg/python_node.py -> /home/rho9/chapt2/chapt2_ws/install/demo_python_pkg/lib/python3.12/site-packages/demo_python_pkg
+[1.332s] byte-compiling /home/rho9/chapt2/chapt2_ws/install/demo_python_pkg/lib/python3.12/site-packages/demo_python_pkg/__init__.py to __init__.cpython-312.pyc
+[1.333s] byte-compiling /home/rho9/chapt2/chapt2_ws/install/demo_python_pkg/lib/python3.12/site-packages/demo_python_pkg/python_node.py to python_node.cpython-312.pyc
+[1.333s] running install_data
+[1.333s] creating /home/rho9/chapt2/chapt2_ws/install/demo_python_pkg/share/ament_index
+[1.334s] creating /home/rho9/chapt2/chapt2_ws/install/demo_python_pkg/share/ament_index/resource_index
+[1.334s] creating /home/rho9/chapt2/chapt2_ws/install/demo_python_pkg/share/ament_index/resource_index/packages
+[1.334s] copying resource/demo_python_pkg -> /home/rho9/chapt2/chapt2_ws/install/demo_python_pkg/share/ament_index/resource_index/packages
+[1.334s] copying package.xml -> /home/rho9/chapt2/chapt2_ws/install/demo_python_pkg/share/demo_python_pkg
+[1.334s] running install_egg_info
+[1.354s] Copying ../../build/demo_python_pkg/demo_python_pkg.egg-info to /home/rho9/chapt2/chapt2_ws/install/demo_python_pkg/lib/python3.12/site-packages/demo_python_pkg-0.0.0-py3.12.egg-info
+[1.356s] running install_scripts
+[1.480s] Installing python_node script to /home/rho9/chapt2/chapt2_ws/install/demo_python_pkg/lib/demo_python_pkg
+[1.481s] writing list of installed files to '/home/rho9/chapt2/chapt2_ws/build/demo_python_pkg/install.log'
+[1.507s] Invoked command in '/home/rho9/chapt2/chapt2_ws/src/demo_python_pkg' returned '0': PYTHONPATH=/home/rho9/chapt2/chapt2_ws/build/demo_python_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rho9/chapt2/chapt2_ws/install/demo_python_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/demo_python_pkg build --build-base /home/rho9/chapt2/chapt2_ws/build/demo_python_pkg/build install --record /home/rho9/chapt2/chapt2_ws/build/demo_python_pkg/install.log --single-version-externally-managed install_data

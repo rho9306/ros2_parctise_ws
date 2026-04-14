@@ -1,0 +1,27 @@
+[0.690s] Invoking command in '/home/rho9/chapt4/chapt4_ws/src/demo_python_service': PYTHONPATH=/home/rho9/chapt4/chapt4_ws/build/demo_python_service/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rho9/chapt4/chapt4_ws/install/demo_python_service/lib/python3.12/site-packages:/home/rho9/chapt4/chapt4_ws/install/chapt4_interfaces/lib/python3.12/site-packages:/home/rho9/chapt4/chapt4_ws/install/demo_python_service/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/demo_python_service build --build-base /home/rho9/chapt4/chapt4_ws/build/demo_python_service/build install --record /home/rho9/chapt4/chapt4_ws/build/demo_python_service/install.log --single-version-externally-managed install_data
+[0.856s] running egg_info
+[0.869s] writing ../../build/demo_python_service/demo_python_service.egg-info/PKG-INFO
+[0.869s] writing dependency_links to ../../build/demo_python_service/demo_python_service.egg-info/dependency_links.txt
+[0.870s] writing entry points to ../../build/demo_python_service/demo_python_service.egg-info/entry_points.txt
+[0.870s] writing requirements to ../../build/demo_python_service/demo_python_service.egg-info/requires.txt
+[0.870s] writing top-level names to ../../build/demo_python_service/demo_python_service.egg-info/top_level.txt
+[0.890s] reading manifest file '../../build/demo_python_service/demo_python_service.egg-info/SOURCES.txt'
+[0.890s] adding license file 'LICENSE'
+[0.890s] writing manifest file '../../build/demo_python_service/demo_python_service.egg-info/SOURCES.txt'
+[0.891s] running build
+[0.891s] running build_py
+[0.891s] copying demo_python_service/face_detect_client_node.py -> /home/rho9/chapt4/chapt4_ws/build/demo_python_service/build/lib/demo_python_service
+[0.891s] running install
+[0.896s] running install_lib
+[0.907s] copying /home/rho9/chapt4/chapt4_ws/build/demo_python_service/build/lib/demo_python_service/face_detect_client_node.py -> /home/rho9/chapt4/chapt4_ws/install/demo_python_service/lib/python3.12/site-packages/demo_python_service
+[0.908s] byte-compiling /home/rho9/chapt4/chapt4_ws/install/demo_python_service/lib/python3.12/site-packages/demo_python_service/face_detect_client_node.py to face_detect_client_node.cpython-312.pyc
+[0.908s] running install_data
+[0.908s] running install_egg_info
+[0.919s] removing '/home/rho9/chapt4/chapt4_ws/install/demo_python_service/lib/python3.12/site-packages/demo_python_service-0.0.0-py3.12.egg-info' (and everything under it)
+[0.919s] Copying ../../build/demo_python_service/demo_python_service.egg-info to /home/rho9/chapt4/chapt4_ws/install/demo_python_service/lib/python3.12/site-packages/demo_python_service-0.0.0-py3.12.egg-info
+[0.920s] running install_scripts
+[1.000s] Installing face_detect_client.node script to /home/rho9/chapt4/chapt4_ws/install/demo_python_service/lib/demo_python_service
+[1.001s] Installing face_detect_node script to /home/rho9/chapt4/chapt4_ws/install/demo_python_service/lib/demo_python_service
+[1.001s] Installing learn_face_detect script to /home/rho9/chapt4/chapt4_ws/install/demo_python_service/lib/demo_python_service
+[1.001s] writing list of installed files to '/home/rho9/chapt4/chapt4_ws/build/demo_python_service/install.log'
+[1.021s] Invoked command in '/home/rho9/chapt4/chapt4_ws/src/demo_python_service' returned '0': PYTHONPATH=/home/rho9/chapt4/chapt4_ws/build/demo_python_service/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rho9/chapt4/chapt4_ws/install/demo_python_service/lib/python3.12/site-packages:/home/rho9/chapt4/chapt4_ws/install/chapt4_interfaces/lib/python3.12/site-packages:/home/rho9/chapt4/chapt4_ws/install/demo_python_service/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/demo_python_service build --build-base /home/rho9/chapt4/chapt4_ws/build/demo_python_service/build install --record /home/rho9/chapt4/chapt4_ws/build/demo_python_service/install.log --single-version-externally-managed install_data

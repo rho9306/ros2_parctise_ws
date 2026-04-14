@@ -1,0 +1,27 @@
+[0.019s] Invoking command in '/home/rho9/chapt3/topic_ws/build/demo_cpp_topic': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rho9/chapt3/topic_ws/install/demo_python_topic:/opt/ros/jazzy /usr/bin/cmake --build /home/rho9/chapt3/topic_ws/build/demo_cpp_topic -- -j20 -l20
+[0.089s] [ 50%] Built target turtle_circle
+[0.093s] [ 75%] [32mBuilding CXX object CMakeFiles/turtle_control.dir/src/turtle_control.cpp.o[0m
+[8.548s] [100%] [32m[1mLinking CXX executable turtle_control[0m
+[8.841s] [100%] Built target turtle_control
+[8.857s] Invoked command in '/home/rho9/chapt3/topic_ws/build/demo_cpp_topic' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rho9/chapt3/topic_ws/install/demo_python_topic:/opt/ros/jazzy /usr/bin/cmake --build /home/rho9/chapt3/topic_ws/build/demo_cpp_topic -- -j20 -l20
+[8.867s] Invoking command in '/home/rho9/chapt3/topic_ws/build/demo_cpp_topic': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rho9/chapt3/topic_ws/install/demo_python_topic:/opt/ros/jazzy /usr/bin/cmake --install /home/rho9/chapt3/topic_ws/build/demo_cpp_topic
+[8.874s] -- Install configuration: ""
+[8.874s] -- Up-to-date: /home/rho9/chapt3/topic_ws/install/demo_cpp_topic/lib/demo_cpp_topic/turtle_circle
+[8.874s] -- Installing: /home/rho9/chapt3/topic_ws/install/demo_cpp_topic/lib/demo_cpp_topic/turtle_control
+[8.879s] -- Set non-toolchain portion of runtime path of "/home/rho9/chapt3/topic_ws/install/demo_cpp_topic/lib/demo_cpp_topic/turtle_control" to ""
+[8.879s] -- Up-to-date: /home/rho9/chapt3/topic_ws/install/demo_cpp_topic/share/ament_index/resource_index/package_run_dependencies/demo_cpp_topic
+[8.879s] -- Up-to-date: /home/rho9/chapt3/topic_ws/install/demo_cpp_topic/share/ament_index/resource_index/parent_prefix_path/demo_cpp_topic
+[8.879s] -- Up-to-date: /home/rho9/chapt3/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/environment/ament_prefix_path.sh
+[8.879s] -- Up-to-date: /home/rho9/chapt3/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/environment/ament_prefix_path.dsv
+[8.879s] -- Up-to-date: /home/rho9/chapt3/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/environment/path.sh
+[8.879s] -- Up-to-date: /home/rho9/chapt3/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/environment/path.dsv
+[8.880s] -- Up-to-date: /home/rho9/chapt3/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/local_setup.bash
+[8.880s] -- Up-to-date: /home/rho9/chapt3/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/local_setup.sh
+[8.880s] -- Up-to-date: /home/rho9/chapt3/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/local_setup.zsh
+[8.880s] -- Up-to-date: /home/rho9/chapt3/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/local_setup.dsv
+[8.880s] -- Installing: /home/rho9/chapt3/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/package.dsv
+[8.880s] -- Up-to-date: /home/rho9/chapt3/topic_ws/install/demo_cpp_topic/share/ament_index/resource_index/packages/demo_cpp_topic
+[8.880s] -- Up-to-date: /home/rho9/chapt3/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/cmake/demo_cpp_topicConfig.cmake
+[8.880s] -- Up-to-date: /home/rho9/chapt3/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/cmake/demo_cpp_topicConfig-version.cmake
+[8.880s] -- Up-to-date: /home/rho9/chapt3/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/package.xml
+[8.882s] Invoked command in '/home/rho9/chapt3/topic_ws/build/demo_cpp_topic' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rho9/chapt3/topic_ws/install/demo_python_topic:/opt/ros/jazzy /usr/bin/cmake --install /home/rho9/chapt3/topic_ws/build/demo_cpp_topic

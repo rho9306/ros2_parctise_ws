@@ -1,0 +1,38 @@
+[1.421s] Invoking command in '/home/rho9/chapt3/topic_practise_ws/src/status_publisher': AMENT_PREFIX_PATH=/home/rho9/chapt3/topic_practise_ws/install/status_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rho9/chapt3/topic_practise_ws/install/status_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/rho9/chapt3/topic_practise_ws/install/status_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rho9/chapt3/topic_practise_ws/build/status_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rho9/chapt3/topic_practise_ws/install/status_publisher/lib/python3.12/site-packages:/home/rho9/chapt3/topic_practise_ws/install/status_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/status_publisher build --build-base /home/rho9/chapt3/topic_practise_ws/build/status_publisher/build install --record /home/rho9/chapt3/topic_practise_ws/build/status_publisher/install.log --single-version-externally-managed install_data
+[1.652s] running egg_info
+[1.652s] creating ../../build/status_publisher/status_publisher.egg-info
+[1.663s] writing ../../build/status_publisher/status_publisher.egg-info/PKG-INFO
+[1.663s] writing dependency_links to ../../build/status_publisher/status_publisher.egg-info/dependency_links.txt
+[1.663s] writing entry points to ../../build/status_publisher/status_publisher.egg-info/entry_points.txt
+[1.663s] writing requirements to ../../build/status_publisher/status_publisher.egg-info/requires.txt
+[1.663s] writing top-level names to ../../build/status_publisher/status_publisher.egg-info/top_level.txt
+[1.663s] writing manifest file '../../build/status_publisher/status_publisher.egg-info/SOURCES.txt'
+[1.690s] reading manifest file '../../build/status_publisher/status_publisher.egg-info/SOURCES.txt'
+[1.690s] adding license file 'LICENSE'
+[1.690s] writing manifest file '../../build/status_publisher/status_publisher.egg-info/SOURCES.txt'
+[1.691s] running build
+[1.691s] running build_py
+[1.691s] creating /home/rho9/chapt3/topic_practise_ws/build/status_publisher/build
+[1.691s] creating /home/rho9/chapt3/topic_practise_ws/build/status_publisher/build/lib
+[1.691s] creating /home/rho9/chapt3/topic_practise_ws/build/status_publisher/build/lib/status_publisher
+[1.692s] copying status_publisher/__init__.py -> /home/rho9/chapt3/topic_practise_ws/build/status_publisher/build/lib/status_publisher
+[1.692s] copying status_publisher/sys_status_pub.py -> /home/rho9/chapt3/topic_practise_ws/build/status_publisher/build/lib/status_publisher
+[1.692s] running install
+[1.698s] running install_lib
+[1.715s] creating /home/rho9/chapt3/topic_practise_ws/install/status_publisher/lib/python3.12/site-packages/status_publisher
+[1.715s] copying /home/rho9/chapt3/topic_practise_ws/build/status_publisher/build/lib/status_publisher/__init__.py -> /home/rho9/chapt3/topic_practise_ws/install/status_publisher/lib/python3.12/site-packages/status_publisher
+[1.715s] copying /home/rho9/chapt3/topic_practise_ws/build/status_publisher/build/lib/status_publisher/sys_status_pub.py -> /home/rho9/chapt3/topic_practise_ws/install/status_publisher/lib/python3.12/site-packages/status_publisher
+[1.716s] byte-compiling /home/rho9/chapt3/topic_practise_ws/install/status_publisher/lib/python3.12/site-packages/status_publisher/__init__.py to __init__.cpython-312.pyc
+[1.717s] byte-compiling /home/rho9/chapt3/topic_practise_ws/install/status_publisher/lib/python3.12/site-packages/status_publisher/sys_status_pub.py to sys_status_pub.cpython-312.pyc
+[1.717s] running install_data
+[1.717s] creating /home/rho9/chapt3/topic_practise_ws/install/status_publisher/share/ament_index
+[1.718s] creating /home/rho9/chapt3/topic_practise_ws/install/status_publisher/share/ament_index/resource_index
+[1.718s] creating /home/rho9/chapt3/topic_practise_ws/install/status_publisher/share/ament_index/resource_index/packages
+[1.718s] copying resource/status_publisher -> /home/rho9/chapt3/topic_practise_ws/install/status_publisher/share/ament_index/resource_index/packages
+[1.718s] copying package.xml -> /home/rho9/chapt3/topic_practise_ws/install/status_publisher/share/status_publisher
+[1.718s] running install_egg_info
+[1.737s] Copying ../../build/status_publisher/status_publisher.egg-info to /home/rho9/chapt3/topic_practise_ws/install/status_publisher/lib/python3.12/site-packages/status_publisher-0.0.0-py3.12.egg-info
+[1.738s] running install_scripts
+[1.840s] Installing sys_status_pub script to /home/rho9/chapt3/topic_practise_ws/install/status_publisher/lib/status_publisher
+[1.840s] writing list of installed files to '/home/rho9/chapt3/topic_practise_ws/build/status_publisher/install.log'
+[1.868s] Invoked command in '/home/rho9/chapt3/topic_practise_ws/src/status_publisher' returned '0': AMENT_PREFIX_PATH=/home/rho9/chapt3/topic_practise_ws/install/status_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rho9/chapt3/topic_practise_ws/install/status_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/rho9/chapt3/topic_practise_ws/install/status_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rho9/chapt3/topic_practise_ws/build/status_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rho9/chapt3/topic_practise_ws/install/status_publisher/lib/python3.12/site-packages:/home/rho9/chapt3/topic_practise_ws/install/status_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/status_publisher build --build-base /home/rho9/chapt3/topic_practise_ws/build/status_publisher/build install --record /home/rho9/chapt3/topic_practise_ws/build/status_publisher/install.log --single-version-externally-managed install_data

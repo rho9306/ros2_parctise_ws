@@ -1,0 +1,30 @@
+[0.019s] Invoking command in '/home/rho9/chapt4/chapt4_ws/build/chapt4_interfaces': /usr/bin/cmake /home/rho9/chapt4/chapt4_ws/src/chapt4_interfaces -DCMAKE_INSTALL_PREFIX=/home/rho9/chapt4/chapt4_ws/install/chapt4_interfaces
+[0.238s] -- The C compiler identification is GNU 13.3.0
+[0.877s] -- The CXX compiler identification is GNU 13.3.0
+[1.323s] -- Detecting C compiler ABI info
+[1.650s] -- Detecting C compiler ABI info - done
+[1.658s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.659s] -- Detecting C compile features
+[1.660s] -- Detecting C compile features - done
+[1.742s] -- Detecting CXX compiler ABI info
+[1.961s] -- Detecting CXX compiler ABI info - done
+[1.972s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.972s] -- Detecting CXX compile features
+[1.973s] -- Detecting CXX compile features - done
+[1.980s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[2.126s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.243s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[2.251s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.428s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.483s] -- Found rosidl_adapter: 4.6.7 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[2.490s] -- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[2.602s] [31mCMake Error at /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:95 (message):
+[2.603s]   rosidl_generate_interfaces() the passed file 'srv/FaceDetector.srv' doesn't
+[2.603s]   exist relative to the CMAKE_CURRENT_SOURCE_DIR
+[2.603s]   '/home/rho9/chapt4/chapt4_ws/src/chapt4_interfaces'
+[2.603s] Call Stack (most recent call first):
+[2.603s]   CMakeLists.txt:13 (rosidl_generate_interfaces)
+[2.603s] 
+[2.603s] [0m
+[2.603s] -- Configuring incomplete, errors occurred!
+[2.608s] Invoked command in '/home/rho9/chapt4/chapt4_ws/build/chapt4_interfaces' returned '1': /usr/bin/cmake /home/rho9/chapt4/chapt4_ws/src/chapt4_interfaces -DCMAKE_INSTALL_PREFIX=/home/rho9/chapt4/chapt4_ws/install/chapt4_interfaces

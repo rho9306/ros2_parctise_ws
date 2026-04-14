@@ -1,0 +1,17 @@
+[0.007s] Invoking command in '/home/rho9/chapt4/chapt4_ws/build/chapt4_interfaces': /usr/bin/cmake /home/rho9/chapt4/chapt4_ws/src/chapt4_interfaces -DCMAKE_INSTALL_PREFIX=/home/rho9/chapt4/chapt4_ws/install/chapt4_interfaces
+[0.022s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.180s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.182s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.290s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.315s] -- Found rosidl_adapter: 4.6.7 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.317s] -- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[0.370s] [31mCMake Error at /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:95 (message):
+[0.370s]   rosidl_generate_interfaces() the passed file 'srv/FaceDetector.srv' doesn't
+[0.370s]   exist relative to the CMAKE_CURRENT_SOURCE_DIR
+[0.370s]   '/home/rho9/chapt4/chapt4_ws/src/chapt4_interfaces'
+[0.370s] Call Stack (most recent call first):
+[0.370s]   CMakeLists.txt:13 (rosidl_generate_interfaces)
+[0.370s] 
+[0.370s] [0m
+[0.370s] -- Configuring incomplete, errors occurred!
+[0.374s] Invoked command in '/home/rho9/chapt4/chapt4_ws/build/chapt4_interfaces' returned '1': /usr/bin/cmake /home/rho9/chapt4/chapt4_ws/src/chapt4_interfaces -DCMAKE_INSTALL_PREFIX=/home/rho9/chapt4/chapt4_ws/install/chapt4_interfaces

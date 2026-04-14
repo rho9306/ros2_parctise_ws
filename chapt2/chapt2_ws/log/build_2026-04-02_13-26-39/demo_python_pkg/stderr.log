@@ -1,0 +1,5 @@
+  File "/home/rho9/chapt2/chapt2_ws/install/demo_python_pkg/lib/python3.12/site-packages/demo_python_pkg/person_node.py", line 7
+    print(self.name self.age food.name)
+          ^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+

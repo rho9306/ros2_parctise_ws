@@ -1,0 +1,56 @@
+[0.010s] Invoking command in '/home/rho9/chapt4/chapt4_ws/build/chapt4_interfaces': /usr/bin/cmake /home/rho9/chapt4/chapt4_ws/src/chapt4_interfaces -DCMAKE_INSTALL_PREFIX=/home/rho9/chapt4/chapt4_ws/install/chapt4_interfaces
+[0.023s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.189s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.191s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.282s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.304s] -- Found rosidl_adapter: 4.6.7 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.305s] -- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[0.573s] [31mCMake Error at /opt/ros/jazzy/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:57 (message):
+[0.573s]   execute_process(/usr/bin/python3 -m rosidl_adapter --package-name
+[0.573s]   chapt4_interfaces --arguments-file
+[0.573s]   /home/rho9/chapt4/chapt4_ws/build/chapt4_interfaces/rosidl_adapter__arguments__chapt4_interfaces.json
+[0.573s]   --output-dir
+[0.573s]   /home/rho9/chapt4/chapt4_ws/build/chapt4_interfaces/rosidl_adapter/chapt4_interfaces
+[0.573s]   --output-file
+[0.573s]   /home/rho9/chapt4/chapt4_ws/build/chapt4_interfaces/rosidl_adapter/chapt4_interfaces.idls)
+[0.573s]   returned error code 1:
+[0.573s] 
+[0.573s]   Error processing 'sensor_msgs/Image Image' of
+[0.573s]   'chapt4_interfaces/FaceDetector_Request': ''Image' is an invalid field
+[0.573s]   name.  It should have the pattern '^(?!.*__)(?!.*_$)[a-z][a-z0-9_]*$''
+[0.573s] 
+[0.573s]   Traceback (most recent call last):
+[0.574s] 
+[0.574s]     File "<frozen runpy>", line 198, in _run_module_as_main
+[0.574s]     File "<frozen runpy>", line 88, in _run_code
+[0.574s]     File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[0.574s]       sys.exit(main())
+[0.574s]                ^^^^^^
+[0.574s]     File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/main.py", line 53, in main
+[0.574s]       abs_idl_file = convert_to_idl(
+[0.574s]                      ^^^^^^^^^^^^^^^
+[0.574s]     File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/__init__.py", line 24, in convert_to_idl
+[0.574s]       return convert_srv_to_idl(
+[0.574s]              ^^^^^^^^^^^^^^^^^^^
+[0.574s]     File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/srv/__init__.py", line 28, in convert_srv_to_idl
+[0.574s]       srv = parse_service_string(package_name, input_file.stem, content)
+[0.574s]             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[0.574s]     File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/parser.py", line 860, in parse_service_string
+[0.574s]       request_message = parse_message_string(
+[0.574s]                         ^^^^^^^^^^^^^^^^^^^^^
+[0.574s]     File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/parser.py", line 520, in parse_message_string
+[0.574s]       fields.append(Field(
+[0.574s]                     ^^^^^^
+[0.574s]     File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/parser.py", line 355, in __init__
+[0.574s]       raise NameError(
+[0.574s] 
+[0.574s]   NameError: 'Image' is an invalid field name.  It should have the pattern
+[0.574s]   '^(?!.*__)(?!.*_$)[a-z][a-z0-9_]*$'
+[0.575s] 
+[0.575s] Call Stack (most recent call first):
+[0.575s]   /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:132 (rosidl_adapt_interfaces)
+[0.575s]   CMakeLists.txt:13 (rosidl_generate_interfaces)
+[0.575s] 
+[0.575s] [0m
+[0.575s] -- Configuring incomplete, errors occurred!
+[0.578s] Invoked command in '/home/rho9/chapt4/chapt4_ws/build/chapt4_interfaces' returned '1': /usr/bin/cmake /home/rho9/chapt4/chapt4_ws/src/chapt4_interfaces -DCMAKE_INSTALL_PREFIX=/home/rho9/chapt4/chapt4_ws/install/chapt4_interfaces

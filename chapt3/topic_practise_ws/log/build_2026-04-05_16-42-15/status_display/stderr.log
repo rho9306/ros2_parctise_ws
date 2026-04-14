@@ -1,0 +1,7 @@
+[01m[K/home/rho9/chapt3/topic_practise_ws/src/status_display/src/hello_qt.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’:
+[01m[K/home/rho9/chapt3/topic_practise_ws/src/status_display/src/hello_qt.cpp:8:25:[m[K [01;31m[Kerror: [m[Kexpected type-specifier before ‘[01m[KQlabel[m[K’
+    8 |     QLabel* label = new [01;31m[KQlabel[m[K();
+      |                         [01;31m[K^~~~~~[m[K
+gmake[2]: *** [CMakeFiles/hello_qt.dir/build.make:76: CMakeFiles/hello_qt.dir/src/hello_qt.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/hello_qt.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,65 @@
+[0.023s] Invoking command in '/home/rho9/chapt3/topic_ws/build/demo_cpp_topic': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rho9/chapt3/topic_ws/install/demo_python_topic:/opt/ros/jazzy /usr/bin/cmake --build /home/rho9/chapt3/topic_ws/build/demo_cpp_topic -- -j20 -l20
+[0.104s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.345s] -- Found rclcpp: 28.1.16 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.489s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.501s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.520s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.539s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.624s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.627s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.812s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.981s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[1.024s] -- Found turtlesim: 1.8.3 (/opt/ros/jazzy/share/turtlesim/cmake)
+[1.094s] -- Found ament_lint_auto: 0.17.4 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.206s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.206s] -- Configured cppcheck include dirs: 
+[1.206s] -- Configured cppcheck exclude dirs and/or files: 
+[1.207s] -- Added test 'lint_cmake' to check CMake code style
+[1.208s] -- Added test 'uncrustify' to check C / C++ code style
+[1.208s] -- Configured uncrustify additional arguments: 
+[1.209s] -- Added test 'xmllint' to check XML markup files
+[1.212s] -- Configuring done (1.1s)
+[1.242s] -- Generating done (0.0s)
+[1.249s] -- Build files have been written to: /home/rho9/chapt3/topic_ws/build/demo_cpp_topic
+[1.298s] [ 50%] Built target turtle_circle
+[1.299s] [ 75%] [32mBuilding CXX object CMakeFiles/turtle_control.dir/src/turtle_control.cpp.o[0m
+[3.251s] [01m[K/home/rho9/chapt3/topic_ws/src/demo_cpp_topic/src/turtle_control.cpp:30:55:[m[K [01;31m[Kerror: [m[K‘[01m[KShared[m[K’ in ‘[01m[Kusing turtlesim::msg::Pose = struct turtlesim::msg::Pose_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct turtlesim::msg::Pose_<std::allocator<void> >[m[K’} does not name a type
+[3.251s]    30 |     void on_pose_received(const turtlesim::msg::Pose::[01;31m[KShared[m[K pose)
+[3.251s]       |                                                       [01;31m[K^~~~~~[m[K
+[3.252s] [01m[K/home/rho9/chapt3/topic_ws/src/demo_cpp_topic/src/turtle_control.cpp:[m[K In constructor ‘[01m[KTurtleControl::[01;32m[KTurtleControl[m[K(const std::string&)[m[K’:
+[3.252s] [01m[K/home/rho9/chapt3/topic_ws/src/demo_cpp_topic/src/turtle_control.cpp:26:71:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K/[m[K’ token
+[3.252s]    26 |         subscriber_ = this->create_subscription<turtlesim::msg::Pose>([01;31m[K/[m[Kturtle1/pose,
+[3.252s]       |                                                                       [01;31m[K^[m[K
+[3.258s] [01m[K/home/rho9/chapt3/topic_ws/src/demo_cpp_topic/src/turtle_control.cpp:26:72:[m[K [01;31m[Kerror: [m[K‘[01m[Kturtle1[m[K’ was not declared in this scope; did you mean ‘[01m[Kturtlesim[m[K’?
+[3.258s]    26 |         subscriber_ = this->create_subscription<turtlesim::msg::Pose>(/[01;31m[Kturtle1[m[K/pose,
+[3.258s]       |                                                                        [01;31m[K^~~~~~~[m[K
+[3.258s]       |                                                                        [32m[Kturtlesim[m[K
+[3.262s] [01m[K/home/rho9/chapt3/topic_ws/src/demo_cpp_topic/src/turtle_control.cpp:26:80:[m[K [01;31m[Kerror: [m[K‘[01m[Kpose[m[K’ was not declared in this scope
+[3.262s]    26 |         subscriber_ = this->create_subscription<turtlesim::msg::Pose>(/turtle1/[01;31m[Kpose[m[K,
+[3.262s]       |                                                                                [01;31m[K^~~~[m[K
+[3.265s] [01m[K/home/rho9/chapt3/topic_ws/src/demo_cpp_topic/src/turtle_control.cpp:[m[K In member function ‘[01m[Kvoid TurtleControl::[01;32m[Kon_pose_received[m[K(int)[m[K’:
+[3.266s] [01m[K/home/rho9/chapt3/topic_ws/src/demo_cpp_topic/src/turtle_control.cpp:32:30:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+[3.266s]    32 |         auto current_x = pose[01;31m[K->[m[Kx;
+[3.266s]       |                              [01;31m[K^~[m[K
+[3.266s] [01m[K/home/rho9/chapt3/topic_ws/src/demo_cpp_topic/src/turtle_control.cpp:33:30:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+[3.266s]    33 |         auto current_y = pose[01;31m[K->[m[Ky;
+[3.266s]       |                              [01;31m[K^~[m[K
+[3.266s] [01m[K/home/rho9/chapt3/topic_ws/src/demo_cpp_topic/src/turtle_control.cpp:40:79:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+[3.266s]    40 |         auto angle = atan2(target_y_ - current_y,target_x_ - current_x) - pose[01;31m[K->[m[Ktheta;
+[3.266s]       |                                                                               [01;31m[K^~[m[K
+[3.267s] [01m[K/home/rho9/chapt3/topic_ws/src/demo_cpp_topic/src/turtle_control.cpp:54:26:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Kgeometry_msgs::msg::Twist_<std::allocator<void> >::_linear_type[m[K’ {aka ‘[01m[Kgeometry_msgs::msg::Vector3_<std::allocator<void> >[m[K’} and ‘[01m[Kdouble[m[K’)
+[3.267s]    54 |             msg.linear = [01;31m[Kmax_speed_[m[K;
+[3.267s]       |                          [01;31m[K^~~~~~~~~~[m[K
+[3.267s] In file included from [01m[K/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.hpp:25[m[K,
+[3.267s]                  from [01m[K/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/twist.hpp:7[m[K,
+[3.267s]                  from [01m[K/home/rho9/chapt3/topic_ws/src/demo_cpp_topic/src/turtle_control.cpp:2[m[K:
+[3.267s] [01m[K/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3__struct.hpp:36:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr geometry_msgs::msg::Vector3_<std::allocator<void> >& geometry_msgs::msg::Vector3_<std::allocator<void> >::[01;32m[Koperator=[m[K(const geometry_msgs::msg::Vector3_<std::allocator<void> >&)[m[K’
+[3.267s]    36 | struct [01;36m[KVector3_[m[K
+[3.267s]       |        [01;36m[K^~~~~~~~[m[K
+[3.267s] [01m[K/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3__struct.hpp:36:8:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kdouble[m[K’ to ‘[01m[Kconst geometry_msgs::msg::Vector3_<std::allocator<void> >&[m[K’
+[3.267s] [01m[K/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3__struct.hpp:36:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr geometry_msgs::msg::Vector3_<std::allocator<void> >& geometry_msgs::msg::Vector3_<std::allocator<void> >::[01;32m[Koperator=[m[K(geometry_msgs::msg::Vector3_<std::allocator<void> >&&)[m[K’
+[3.267s] [01m[K/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3__struct.hpp:36:8:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kdouble[m[K’ to ‘[01m[Kgeometry_msgs::msg::Vector3_<std::allocator<void> >&&[m[K’
+[3.969s] gmake[2]: *** [CMakeFiles/turtle_control.dir/build.make:76: CMakeFiles/turtle_control.dir/src/turtle_control.cpp.o] Error 1
+[3.969s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/turtle_control.dir/all] Error 2
+[3.970s] gmake: *** [Makefile:146: all] Error 2
+[3.972s] Invoked command in '/home/rho9/chapt3/topic_ws/build/demo_cpp_topic' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rho9/chapt3/topic_ws/install/demo_python_topic:/opt/ros/jazzy /usr/bin/cmake --build /home/rho9/chapt3/topic_ws/build/demo_cpp_topic -- -j20 -l20

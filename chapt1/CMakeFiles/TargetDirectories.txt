@@ -1,0 +1,3 @@
+/home/rho9/chapter1/CMakeFiles/learn_cmake.dir
+/home/rho9/chapter1/CMakeFiles/edit_cache.dir
+/home/rho9/chapter1/CMakeFiles/rebuild_cache.dir

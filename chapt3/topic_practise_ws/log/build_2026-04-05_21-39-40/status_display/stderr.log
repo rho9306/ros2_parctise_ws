@@ -1,0 +1,17 @@
+[01m[K/home/rho9/chapt3/topic_practise_ws/src/status_display/src/sys_status_display.cpp:[m[K In lambda function:
+[01m[K/home/rho9/chapt3/topic_practise_ws/src/status_display/src/sys_status_display.cpp:23:13:[m[K [01;31m[Kerror: [m[K‘[01m[Klabel[m[K’ was not declared in this scope; did you mean ‘[01m[Klabel_[m[K’?
+   23 |             [01;31m[Klabel[m[K->setText(get_qstr_from_msg(msg));
+      |             [01;31m[K^~~~~[m[K
+      |             [32m[Klabel_[m[K
+[01m[K/home/rho9/chapt3/topic_practise_ws/src/status_display/src/sys_status_display.cpp:[m[K In constructor ‘[01m[KSysStatusDisplay::[01;32m[KSysStatusDisplay[m[K()[m[K’:
+[01m[K/home/rho9/chapt3/topic_practise_ws/src/status_display/src/sys_status_display.cpp:26:9:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Klabel_[m[K’
+   26 |         [01;31m[Klabel_[m[K->show();
+      |         [01;31m[K^~~~~~[m[K
+[01m[K/home/rho9/chapt3/topic_practise_ws/src/status_display/src/sys_status_display.cpp:[m[K In member function ‘[01m[KQString SysStatusDisplay::[01;32m[Kget_qstr_from_msg[m[K(status_interfaces::msg::SystemStatus_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/rho9/chapt3/topic_practise_ws/src/status_display/src/sys_status_display.cpp:37:42:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing std::__shared_ptr_access<status_interfaces::msg::SystemStatus_<std::allocator<void> >, __gnu_cxx::_S_atomic, false, false>::element_type = struct status_interfaces::msg::SystemStatus_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct status_interfaces::msg::SystemStatus_<std::allocator<void> >[m[K’} has no member named ‘[01m[Knet_sent[m[K’; did you mean ‘[01m[Knet_cent[m[K’?
+   37 |                  <<"网络发送量\t"<< msg->[01;31m[Knet_sent[m[K << endl
+      |                                          [01;31m[K^~~~~~~~[m[K
+      |                                          [32m[Knet_cent[m[K
+gmake[2]: *** [CMakeFiles/sys_status_display.dir/build.make:76: CMakeFiles/sys_status_display.dir/src/sys_status_display.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/sys_status_display.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

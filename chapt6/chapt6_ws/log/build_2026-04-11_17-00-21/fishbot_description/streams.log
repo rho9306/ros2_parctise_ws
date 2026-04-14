@@ -1,0 +1,11 @@
+[0.019s] Invoking command in '/home/rho9/chapt6/chapt6_ws/build/fishbot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/rho9/chapt6/chapt6_ws/build/fishbot_description -- -j20 -l20
+[0.109s] Invoked command in '/home/rho9/chapt6/chapt6_ws/build/fishbot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/rho9/chapt6/chapt6_ws/build/fishbot_description -- -j20 -l20
+[0.122s] Invoking command in '/home/rho9/chapt6/chapt6_ws/build/fishbot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/rho9/chapt6/chapt6_ws/build/fishbot_description
+[0.130s] -- Install configuration: ""
+[0.131s] [31mCMake Error at cmake_install.cmake:46 (file):
+[0.131s]   file INSTALL cannot find
+[0.131s]   "/home/rho9/chapt6/chapt6_ws/src/fishbot_description/launch": No such file
+[0.131s]   or directory.
+[0.131s] 
+[0.131s] [0m
+[0.132s] Invoked command in '/home/rho9/chapt6/chapt6_ws/build/fishbot_description' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/rho9/chapt6/chapt6_ws/build/fishbot_description

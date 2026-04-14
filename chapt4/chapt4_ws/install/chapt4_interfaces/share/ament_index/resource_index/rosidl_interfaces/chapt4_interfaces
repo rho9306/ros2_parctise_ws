@@ -1,0 +1,4 @@
+srv/FaceDetector.idl
+srv/FaceDetector.srv
+srv/Partol.idl
+srv/Partol.srv
