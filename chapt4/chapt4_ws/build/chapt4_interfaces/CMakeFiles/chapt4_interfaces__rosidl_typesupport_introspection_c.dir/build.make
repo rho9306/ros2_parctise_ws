@@ -78,7 +78,7 @@ rosidl_typesupport_introspection_c/chapt4_interfaces/srv/detail/face_detector__r
 rosidl_typesupport_introspection_c/chapt4_interfaces/srv/detail/face_detector__rosidl_typesupport_introspection_c.h: /opt/ros/jazzy/share/rosidl_typesupport_introspection_c/resource/srv__rosidl_typesupport_introspection_c.h.em
 rosidl_typesupport_introspection_c/chapt4_interfaces/srv/detail/face_detector__rosidl_typesupport_introspection_c.h: /opt/ros/jazzy/share/rosidl_typesupport_introspection_c/resource/srv__type_support.c.em
 rosidl_typesupport_introspection_c/chapt4_interfaces/srv/detail/face_detector__rosidl_typesupport_introspection_c.h: rosidl_adapter/chapt4_interfaces/srv/FaceDetector.idl
-rosidl_typesupport_introspection_c/chapt4_interfaces/srv/detail/face_detector__rosidl_typesupport_introspection_c.h: rosidl_adapter/chapt4_interfaces/srv/Partol.idl
+rosidl_typesupport_introspection_c/chapt4_interfaces/srv/detail/face_detector__rosidl_typesupport_introspection_c.h: rosidl_adapter/chapt4_interfaces/srv/Patrol.idl
 rosidl_typesupport_introspection_c/chapt4_interfaces/srv/detail/face_detector__rosidl_typesupport_introspection_c.h: /opt/ros/jazzy/share/sensor_msgs/msg/BatteryState.idl
 rosidl_typesupport_introspection_c/chapt4_interfaces/srv/detail/face_detector__rosidl_typesupport_introspection_c.h: /opt/ros/jazzy/share/sensor_msgs/msg/CameraInfo.idl
 rosidl_typesupport_introspection_c/chapt4_interfaces/srv/detail/face_detector__rosidl_typesupport_introspection_c.h: /opt/ros/jazzy/share/sensor_msgs/msg/ChannelFloat32.idl
@@ -175,14 +175,14 @@ rosidl_typesupport_introspection_c/chapt4_interfaces/srv/detail/face_detector__r
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/rho9/chapt4/chapt4_ws/build/chapt4_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C introspection for ROS interfaces"
 	/usr/bin/python3 /opt/ros/jazzy/lib/rosidl_typesupport_introspection_c/rosidl_typesupport_introspection_c --generator-arguments-file /home/rho9/chapt4/chapt4_ws/build/chapt4_interfaces/rosidl_typesupport_introspection_c__arguments.json
 
-rosidl_typesupport_introspection_c/chapt4_interfaces/srv/detail/partol__rosidl_typesupport_introspection_c.h: rosidl_typesupport_introspection_c/chapt4_interfaces/srv/detail/face_detector__rosidl_typesupport_introspection_c.h
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_c/chapt4_interfaces/srv/detail/partol__rosidl_typesupport_introspection_c.h
+rosidl_typesupport_introspection_c/chapt4_interfaces/srv/detail/patrol__rosidl_typesupport_introspection_c.h: rosidl_typesupport_introspection_c/chapt4_interfaces/srv/detail/face_detector__rosidl_typesupport_introspection_c.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_c/chapt4_interfaces/srv/detail/patrol__rosidl_typesupport_introspection_c.h
 
 rosidl_typesupport_introspection_c/chapt4_interfaces/srv/detail/face_detector__type_support.c: rosidl_typesupport_introspection_c/chapt4_interfaces/srv/detail/face_detector__rosidl_typesupport_introspection_c.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_c/chapt4_interfaces/srv/detail/face_detector__type_support.c
 
-rosidl_typesupport_introspection_c/chapt4_interfaces/srv/detail/partol__type_support.c: rosidl_typesupport_introspection_c/chapt4_interfaces/srv/detail/face_detector__rosidl_typesupport_introspection_c.h
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_c/chapt4_interfaces/srv/detail/partol__type_support.c
+rosidl_typesupport_introspection_c/chapt4_interfaces/srv/detail/patrol__type_support.c: rosidl_typesupport_introspection_c/chapt4_interfaces/srv/detail/face_detector__rosidl_typesupport_introspection_c.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_c/chapt4_interfaces/srv/detail/patrol__type_support.c
 
 CMakeFiles/chapt4_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/chapt4_interfaces/srv/detail/face_detector__type_support.c.o: CMakeFiles/chapt4_interfaces__rosidl_typesupport_introspection_c.dir/flags.make
 CMakeFiles/chapt4_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/chapt4_interfaces/srv/detail/face_detector__type_support.c.o: rosidl_typesupport_introspection_c/chapt4_interfaces/srv/detail/face_detector__type_support.c
@@ -198,30 +198,30 @@ CMakeFiles/chapt4_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_type
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/chapt4_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/chapt4_interfaces/srv/detail/face_detector__type_support.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/rho9/chapt4/chapt4_ws/build/chapt4_interfaces/rosidl_typesupport_introspection_c/chapt4_interfaces/srv/detail/face_detector__type_support.c -o CMakeFiles/chapt4_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/chapt4_interfaces/srv/detail/face_detector__type_support.c.s
 
-CMakeFiles/chapt4_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/chapt4_interfaces/srv/detail/partol__type_support.c.o: CMakeFiles/chapt4_interfaces__rosidl_typesupport_introspection_c.dir/flags.make
-CMakeFiles/chapt4_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/chapt4_interfaces/srv/detail/partol__type_support.c.o: rosidl_typesupport_introspection_c/chapt4_interfaces/srv/detail/partol__type_support.c
-CMakeFiles/chapt4_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/chapt4_interfaces/srv/detail/partol__type_support.c.o: CMakeFiles/chapt4_interfaces__rosidl_typesupport_introspection_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/rho9/chapt4/chapt4_ws/build/chapt4_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/chapt4_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/chapt4_interfaces/srv/detail/partol__type_support.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/chapt4_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/chapt4_interfaces/srv/detail/partol__type_support.c.o -MF CMakeFiles/chapt4_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/chapt4_interfaces/srv/detail/partol__type_support.c.o.d -o CMakeFiles/chapt4_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/chapt4_interfaces/srv/detail/partol__type_support.c.o -c /home/rho9/chapt4/chapt4_ws/build/chapt4_interfaces/rosidl_typesupport_introspection_c/chapt4_interfaces/srv/detail/partol__type_support.c
+CMakeFiles/chapt4_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/chapt4_interfaces/srv/detail/patrol__type_support.c.o: CMakeFiles/chapt4_interfaces__rosidl_typesupport_introspection_c.dir/flags.make
+CMakeFiles/chapt4_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/chapt4_interfaces/srv/detail/patrol__type_support.c.o: rosidl_typesupport_introspection_c/chapt4_interfaces/srv/detail/patrol__type_support.c
+CMakeFiles/chapt4_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/chapt4_interfaces/srv/detail/patrol__type_support.c.o: CMakeFiles/chapt4_interfaces__rosidl_typesupport_introspection_c.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/rho9/chapt4/chapt4_ws/build/chapt4_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/chapt4_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/chapt4_interfaces/srv/detail/patrol__type_support.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/chapt4_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/chapt4_interfaces/srv/detail/patrol__type_support.c.o -MF CMakeFiles/chapt4_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/chapt4_interfaces/srv/detail/patrol__type_support.c.o.d -o CMakeFiles/chapt4_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/chapt4_interfaces/srv/detail/patrol__type_support.c.o -c /home/rho9/chapt4/chapt4_ws/build/chapt4_interfaces/rosidl_typesupport_introspection_c/chapt4_interfaces/srv/detail/patrol__type_support.c
 
-CMakeFiles/chapt4_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/chapt4_interfaces/srv/detail/partol__type_support.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/chapt4_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/chapt4_interfaces/srv/detail/partol__type_support.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/rho9/chapt4/chapt4_ws/build/chapt4_interfaces/rosidl_typesupport_introspection_c/chapt4_interfaces/srv/detail/partol__type_support.c > CMakeFiles/chapt4_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/chapt4_interfaces/srv/detail/partol__type_support.c.i
+CMakeFiles/chapt4_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/chapt4_interfaces/srv/detail/patrol__type_support.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/chapt4_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/chapt4_interfaces/srv/detail/patrol__type_support.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/rho9/chapt4/chapt4_ws/build/chapt4_interfaces/rosidl_typesupport_introspection_c/chapt4_interfaces/srv/detail/patrol__type_support.c > CMakeFiles/chapt4_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/chapt4_interfaces/srv/detail/patrol__type_support.c.i
 
-CMakeFiles/chapt4_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/chapt4_interfaces/srv/detail/partol__type_support.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/chapt4_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/chapt4_interfaces/srv/detail/partol__type_support.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/rho9/chapt4/chapt4_ws/build/chapt4_interfaces/rosidl_typesupport_introspection_c/chapt4_interfaces/srv/detail/partol__type_support.c -o CMakeFiles/chapt4_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/chapt4_interfaces/srv/detail/partol__type_support.c.s
+CMakeFiles/chapt4_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/chapt4_interfaces/srv/detail/patrol__type_support.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/chapt4_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/chapt4_interfaces/srv/detail/patrol__type_support.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/rho9/chapt4/chapt4_ws/build/chapt4_interfaces/rosidl_typesupport_introspection_c/chapt4_interfaces/srv/detail/patrol__type_support.c -o CMakeFiles/chapt4_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/chapt4_interfaces/srv/detail/patrol__type_support.c.s
 
 # Object files for target chapt4_interfaces__rosidl_typesupport_introspection_c
 chapt4_interfaces__rosidl_typesupport_introspection_c_OBJECTS = \
 "CMakeFiles/chapt4_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/chapt4_interfaces/srv/detail/face_detector__type_support.c.o" \
-"CMakeFiles/chapt4_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/chapt4_interfaces/srv/detail/partol__type_support.c.o"
+"CMakeFiles/chapt4_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/chapt4_interfaces/srv/detail/patrol__type_support.c.o"
 
 # External object files for target chapt4_interfaces__rosidl_typesupport_introspection_c
 chapt4_interfaces__rosidl_typesupport_introspection_c_EXTERNAL_OBJECTS =
 
 libchapt4_interfaces__rosidl_typesupport_introspection_c.so: CMakeFiles/chapt4_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/chapt4_interfaces/srv/detail/face_detector__type_support.c.o
-libchapt4_interfaces__rosidl_typesupport_introspection_c.so: CMakeFiles/chapt4_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/chapt4_interfaces/srv/detail/partol__type_support.c.o
+libchapt4_interfaces__rosidl_typesupport_introspection_c.so: CMakeFiles/chapt4_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/chapt4_interfaces/srv/detail/patrol__type_support.c.o
 libchapt4_interfaces__rosidl_typesupport_introspection_c.so: CMakeFiles/chapt4_interfaces__rosidl_typesupport_introspection_c.dir/build.make
 libchapt4_interfaces__rosidl_typesupport_introspection_c.so: libchapt4_interfaces__rosidl_generator_c.so
 libchapt4_interfaces__rosidl_typesupport_introspection_c.so: /opt/ros/jazzy/lib/libsensor_msgs__rosidl_typesupport_introspection_c.so
@@ -251,8 +251,8 @@ CMakeFiles/chapt4_interfaces__rosidl_typesupport_introspection_c.dir/clean:
 
 CMakeFiles/chapt4_interfaces__rosidl_typesupport_introspection_c.dir/depend: rosidl_typesupport_introspection_c/chapt4_interfaces/srv/detail/face_detector__rosidl_typesupport_introspection_c.h
 CMakeFiles/chapt4_interfaces__rosidl_typesupport_introspection_c.dir/depend: rosidl_typesupport_introspection_c/chapt4_interfaces/srv/detail/face_detector__type_support.c
-CMakeFiles/chapt4_interfaces__rosidl_typesupport_introspection_c.dir/depend: rosidl_typesupport_introspection_c/chapt4_interfaces/srv/detail/partol__rosidl_typesupport_introspection_c.h
-CMakeFiles/chapt4_interfaces__rosidl_typesupport_introspection_c.dir/depend: rosidl_typesupport_introspection_c/chapt4_interfaces/srv/detail/partol__type_support.c
+CMakeFiles/chapt4_interfaces__rosidl_typesupport_introspection_c.dir/depend: rosidl_typesupport_introspection_c/chapt4_interfaces/srv/detail/patrol__rosidl_typesupport_introspection_c.h
+CMakeFiles/chapt4_interfaces__rosidl_typesupport_introspection_c.dir/depend: rosidl_typesupport_introspection_c/chapt4_interfaces/srv/detail/patrol__type_support.c
 	cd /home/rho9/chapt4/chapt4_ws/build/chapt4_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rho9/chapt4/chapt4_ws/src/chapt4_interfaces /home/rho9/chapt4/chapt4_ws/src/chapt4_interfaces /home/rho9/chapt4/chapt4_ws/build/chapt4_interfaces /home/rho9/chapt4/chapt4_ws/build/chapt4_interfaces /home/rho9/chapt4/chapt4_ws/build/chapt4_interfaces/CMakeFiles/chapt4_interfaces__rosidl_typesupport_introspection_c.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/chapt4_interfaces__rosidl_typesupport_introspection_c.dir/depend
 

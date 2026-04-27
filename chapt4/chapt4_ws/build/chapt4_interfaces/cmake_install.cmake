@@ -51,7 +51,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/chapt4_interfaces/srv" TYPE FILE FILES "/home/rho9/chapt4/chapt4_ws/build/chapt4_interfaces/rosidl_generator_type_description/chapt4_interfaces/srv/Partol.json")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/chapt4_interfaces/srv" TYPE FILE FILES "/home/rho9/chapt4/chapt4_ws/build/chapt4_interfaces/rosidl_generator_type_description/chapt4_interfaces/srv/Patrol.json")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -371,7 +371,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/chapt4_interfaces/srv" TYPE FILE FILES "/home/rho9/chapt4/chapt4_ws/build/chapt4_interfaces/rosidl_adapter/chapt4_interfaces/srv/Partol.idl")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/chapt4_interfaces/srv" TYPE FILE FILES "/home/rho9/chapt4/chapt4_ws/build/chapt4_interfaces/rosidl_adapter/chapt4_interfaces/srv/Patrol.idl")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -379,7 +379,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/chapt4_interfaces/srv" TYPE FILE FILES "/home/rho9/chapt4/chapt4_ws/src/chapt4_interfaces/srv/Partol.srv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/chapt4_interfaces/srv" TYPE FILE FILES "/home/rho9/chapt4/chapt4_ws/src/chapt4_interfaces/srv/Patrol.srv")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)

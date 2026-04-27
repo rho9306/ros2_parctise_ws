@@ -7,6 +7,7 @@ from ament_index_python.packages import get_package_share_directory
 import os
 from cv_bridge import CvBridge
 import time 
+from rcl_interfaces.msg import SetParametersResult
 
 class FaceDetectNode(Node):
     def __init__(self):
@@ -14,11 +15,24 @@ class FaceDetectNode(Node):
         self.bridge = CvBridge()
         self.service = self.create_service(FaceDetector, 
         'face_detect', self.detect_face_callback)
-        self.number_of_times_to_upsample=1
-        self.model='hog'
+        self.declare_parameter('number_of_times_to_upsample', 1)
+        self.declare_parameter('model', 'hog')
+        self.number_of_times_to_upsample=self.get_parameter('number_of_times_to_upsample').value
+        self.model=self.get_parameter('model').value
         self.default_image_path = get_package_share_directory(
         'demo_python_service'
          )+'/resource/default.jpg'
+        self.add_on_set_parameters_callback(self.parameters_callback)
+
+    def parameters_callback(self, parameters):
+        for parameter in parameters:
+            self.get_logger().info(f"{parameter.name}->{parameter.value}")
+            if parameter.name == 'number_of_times_to_upsample':
+                self.number_of_times_to_upsample = parameter.value
+            if parameter.name == 'model':
+                self.model = parameter.value
+        return SetParametersResult(successful=True)
+
 
     def detect_face_callback(self, request, response):
         if request.image.data:

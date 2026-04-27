@@ -4,11 +4,11 @@
   "template_dir": "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource",
   "idl_tuples": [
     "/home/rho9/chapt4/chapt4_ws/build/chapt4_interfaces/rosidl_adapter/chapt4_interfaces:srv/FaceDetector.idl",
-    "/home/rho9/chapt4/chapt4_ws/build/chapt4_interfaces/rosidl_adapter/chapt4_interfaces:srv/Partol.idl"
+    "/home/rho9/chapt4/chapt4_ws/build/chapt4_interfaces/rosidl_adapter/chapt4_interfaces:srv/Patrol.idl"
   ],
   "ros_interface_files": [
     "/home/rho9/chapt4/chapt4_ws/src/chapt4_interfaces/srv/FaceDetector.srv",
-    "/home/rho9/chapt4/chapt4_ws/src/chapt4_interfaces/srv/Partol.srv"
+    "/home/rho9/chapt4/chapt4_ws/src/chapt4_interfaces/srv/Patrol.srv"
   ],
   "ros_interface_dependencies": [
     "sensor_msgs:/opt/ros/jazzy/share/sensor_msgs/msg/BatteryState.idl",
@@ -126,7 +126,7 @@
     "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/srv__type_support.c.em",
     "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/srv__type_support.h.em",
     "/home/rho9/chapt4/chapt4_ws/build/chapt4_interfaces/rosidl_adapter/chapt4_interfaces/srv/FaceDetector.idl",
-    "/home/rho9/chapt4/chapt4_ws/build/chapt4_interfaces/rosidl_adapter/chapt4_interfaces/srv/Partol.idl",
+    "/home/rho9/chapt4/chapt4_ws/build/chapt4_interfaces/rosidl_adapter/chapt4_interfaces/srv/Patrol.idl",
     "/opt/ros/jazzy/share/sensor_msgs/msg/BatteryState.idl",
     "/opt/ros/jazzy/share/sensor_msgs/msg/CameraInfo.idl",
     "/opt/ros/jazzy/share/sensor_msgs/msg/ChannelFloat32.idl",
@@ -223,6 +223,6 @@
   ],
   "type_description_tuples": [
     "srv/FaceDetector.idl:/home/rho9/chapt4/chapt4_ws/build/chapt4_interfaces/rosidl_generator_type_description/chapt4_interfaces/srv/FaceDetector.json",
-    "srv/Partol.idl:/home/rho9/chapt4/chapt4_ws/build/chapt4_interfaces/rosidl_generator_type_description/chapt4_interfaces/srv/Partol.json"
+    "srv/Patrol.idl:/home/rho9/chapt4/chapt4_ws/build/chapt4_interfaces/rosidl_generator_type_description/chapt4_interfaces/srv/Patrol.json"
   ]
 }

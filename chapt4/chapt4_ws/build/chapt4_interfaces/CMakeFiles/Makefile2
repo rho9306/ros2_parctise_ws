@@ -527,8 +527,8 @@ CMakeFiles/chapt4_interfaces__rosidl_generator_py.dir/clean:
 # Target rules for target CMakeFiles/chapt4_interfaces_s__rosidl_typesupport_fastrtps_c.dir
 
 # All Build rule for target.
-CMakeFiles/chapt4_interfaces_s__rosidl_typesupport_fastrtps_c.dir/all: CMakeFiles/chapt4_interfaces__rosidl_generator_py.dir/all
 CMakeFiles/chapt4_interfaces_s__rosidl_typesupport_fastrtps_c.dir/all: chapt4_interfaces__py/CMakeFiles/chapt4_interfaces__py.dir/all
+CMakeFiles/chapt4_interfaces_s__rosidl_typesupport_fastrtps_c.dir/all: CMakeFiles/chapt4_interfaces__rosidl_generator_py.dir/all
 CMakeFiles/chapt4_interfaces_s__rosidl_typesupport_fastrtps_c.dir/all: CMakeFiles/chapt4_interfaces__rosidl_generator_c.dir/all
 CMakeFiles/chapt4_interfaces_s__rosidl_typesupport_fastrtps_c.dir/all: CMakeFiles/chapt4_interfaces__rosidl_typesupport_fastrtps_c.dir/all
 CMakeFiles/chapt4_interfaces_s__rosidl_typesupport_fastrtps_c.dir/all: CMakeFiles/chapt4_interfaces__rosidl_typesupport_c.dir/all
@@ -557,8 +557,8 @@ CMakeFiles/chapt4_interfaces_s__rosidl_typesupport_fastrtps_c.dir/clean:
 # Target rules for target CMakeFiles/chapt4_interfaces_s__rosidl_typesupport_introspection_c.dir
 
 # All Build rule for target.
-CMakeFiles/chapt4_interfaces_s__rosidl_typesupport_introspection_c.dir/all: CMakeFiles/chapt4_interfaces__rosidl_generator_py.dir/all
 CMakeFiles/chapt4_interfaces_s__rosidl_typesupport_introspection_c.dir/all: chapt4_interfaces__py/CMakeFiles/chapt4_interfaces__py.dir/all
+CMakeFiles/chapt4_interfaces_s__rosidl_typesupport_introspection_c.dir/all: CMakeFiles/chapt4_interfaces__rosidl_generator_py.dir/all
 CMakeFiles/chapt4_interfaces_s__rosidl_typesupport_introspection_c.dir/all: CMakeFiles/chapt4_interfaces__rosidl_generator_c.dir/all
 CMakeFiles/chapt4_interfaces_s__rosidl_typesupport_introspection_c.dir/all: CMakeFiles/chapt4_interfaces__rosidl_typesupport_introspection_c.dir/all
 CMakeFiles/chapt4_interfaces_s__rosidl_typesupport_introspection_c.dir/all: CMakeFiles/chapt4_interfaces__rosidl_typesupport_c.dir/all
@@ -587,8 +587,8 @@ CMakeFiles/chapt4_interfaces_s__rosidl_typesupport_introspection_c.dir/clean:
 # Target rules for target CMakeFiles/chapt4_interfaces_s__rosidl_typesupport_c.dir
 
 # All Build rule for target.
-CMakeFiles/chapt4_interfaces_s__rosidl_typesupport_c.dir/all: CMakeFiles/chapt4_interfaces__rosidl_generator_py.dir/all
 CMakeFiles/chapt4_interfaces_s__rosidl_typesupport_c.dir/all: chapt4_interfaces__py/CMakeFiles/chapt4_interfaces__py.dir/all
+CMakeFiles/chapt4_interfaces_s__rosidl_typesupport_c.dir/all: CMakeFiles/chapt4_interfaces__rosidl_generator_py.dir/all
 CMakeFiles/chapt4_interfaces_s__rosidl_typesupport_c.dir/all: CMakeFiles/chapt4_interfaces__rosidl_generator_c.dir/all
 CMakeFiles/chapt4_interfaces_s__rosidl_typesupport_c.dir/all: CMakeFiles/chapt4_interfaces__rosidl_typesupport_c.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/chapt4_interfaces_s__rosidl_typesupport_c.dir/build.make CMakeFiles/chapt4_interfaces_s__rosidl_typesupport_c.dir/depend

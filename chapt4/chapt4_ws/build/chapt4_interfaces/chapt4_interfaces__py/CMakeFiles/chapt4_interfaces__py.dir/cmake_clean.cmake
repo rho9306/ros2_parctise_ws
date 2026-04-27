@@ -5,8 +5,8 @@ file(REMOVE_RECURSE
   "/home/rho9/chapt4/chapt4_ws/build/chapt4_interfaces/rosidl_generator_py/chapt4_interfaces/srv/__init__.py"
   "/home/rho9/chapt4/chapt4_ws/build/chapt4_interfaces/rosidl_generator_py/chapt4_interfaces/srv/_face_detector.py"
   "/home/rho9/chapt4/chapt4_ws/build/chapt4_interfaces/rosidl_generator_py/chapt4_interfaces/srv/_face_detector_s.c"
-  "/home/rho9/chapt4/chapt4_ws/build/chapt4_interfaces/rosidl_generator_py/chapt4_interfaces/srv/_partol.py"
-  "/home/rho9/chapt4/chapt4_ws/build/chapt4_interfaces/rosidl_generator_py/chapt4_interfaces/srv/_partol_s.c"
+  "/home/rho9/chapt4/chapt4_ws/build/chapt4_interfaces/rosidl_generator_py/chapt4_interfaces/srv/_patrol.py"
+  "/home/rho9/chapt4/chapt4_ws/build/chapt4_interfaces/rosidl_generator_py/chapt4_interfaces/srv/_patrol_s.c"
   "CMakeFiles/chapt4_interfaces__py"
 )
 

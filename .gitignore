@@ -1,0 +1,52 @@
+# Build directories
+build/
+install/
+log/
+
+# Python cache
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+
+# VSCode
+.vscode/
+*.code-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+*~
+
+# IDE
+.idea/
+*.swp
+*.swo
+
+# System files
+.bash_history
+.cache/
+.local/share/
+.ros/
+.gazebo/
+.sdformat/
+.rviz2/
+.vscode-server/
+
+# Temporary files
+*.tmp
+*.temp
+
+# Exclude everything except chapt4, chapt5 and .gitignore
+/*
+!.gitignore
+!chapt4/
+!chapt5/
+
+# Ignore build dirs in chapt4 and chapt5
+chapt4/*/build/
+chapt5/*/build/
+chapt4/*/install/
+chapt5/*/install/
+chapt4/*/log/
+chapt5/*/log/

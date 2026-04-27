@@ -476,39 +476,39 @@ _register_srv_type__srv__face_detector(PyObject * pymodule)
 // #include "rosidl_runtime_c/service_type_support_struct.h"
 // already included above
 // #include "rosidl_runtime_c/action_type_support_struct.h"
-#include "chapt4_interfaces/srv/detail/partol__type_support.h"
-#include "chapt4_interfaces/srv/detail/partol__struct.h"
-#include "chapt4_interfaces/srv/detail/partol__functions.h"
+#include "chapt4_interfaces/srv/detail/patrol__type_support.h"
+#include "chapt4_interfaces/srv/detail/patrol__struct.h"
+#include "chapt4_interfaces/srv/detail/patrol__functions.h"
 
-static void * chapt4_interfaces__srv__partol__request__create_ros_message(void)
+static void * chapt4_interfaces__srv__patrol__request__create_ros_message(void)
 {
-  return chapt4_interfaces__srv__Partol_Request__create();
+  return chapt4_interfaces__srv__Patrol_Request__create();
 }
 
-static void chapt4_interfaces__srv__partol__request__destroy_ros_message(void * raw_ros_message)
+static void chapt4_interfaces__srv__patrol__request__destroy_ros_message(void * raw_ros_message)
 {
-  chapt4_interfaces__srv__Partol_Request * ros_message = (chapt4_interfaces__srv__Partol_Request *)raw_ros_message;
-  chapt4_interfaces__srv__Partol_Request__destroy(ros_message);
+  chapt4_interfaces__srv__Patrol_Request * ros_message = (chapt4_interfaces__srv__Patrol_Request *)raw_ros_message;
+  chapt4_interfaces__srv__Patrol_Request__destroy(ros_message);
 }
 
 ROSIDL_GENERATOR_C_IMPORT
-bool chapt4_interfaces__srv__partol__request__convert_from_py(PyObject * _pymsg, void * ros_message);
+bool chapt4_interfaces__srv__patrol__request__convert_from_py(PyObject * _pymsg, void * ros_message);
 ROSIDL_GENERATOR_C_IMPORT
-PyObject * chapt4_interfaces__srv__partol__request__convert_to_py(void * raw_ros_message);
+PyObject * chapt4_interfaces__srv__patrol__request__convert_to_py(void * raw_ros_message);
 
 
 ROSIDL_GENERATOR_C_IMPORT
 const rosidl_message_type_support_t *
-ROSIDL_GET_MSG_TYPE_SUPPORT(chapt4_interfaces, srv, Partol_Request);
+ROSIDL_GET_MSG_TYPE_SUPPORT(chapt4_interfaces, srv, Patrol_Request);
 
 int8_t
-_register_msg_type__srv__partol__request(PyObject * pymodule)
+_register_msg_type__srv__patrol__request(PyObject * pymodule)
 {
   int8_t err;
 
   PyObject * pyobject_create_ros_message = NULL;
   pyobject_create_ros_message = PyCapsule_New(
-    (void *)&chapt4_interfaces__srv__partol__request__create_ros_message,
+    (void *)&chapt4_interfaces__srv__patrol__request__create_ros_message,
     NULL, NULL);
   if (!pyobject_create_ros_message) {
     // previously added objects will be removed when the module is destroyed
@@ -516,7 +516,7 @@ _register_msg_type__srv__partol__request(PyObject * pymodule)
   }
   err = PyModule_AddObject(
     pymodule,
-    "create_ros_message_msg__srv__partol__request",
+    "create_ros_message_msg__srv__patrol__request",
     pyobject_create_ros_message);
   if (err) {
     // the created capsule needs to be decremented
@@ -527,7 +527,7 @@ _register_msg_type__srv__partol__request(PyObject * pymodule)
 
   PyObject * pyobject_destroy_ros_message = NULL;
   pyobject_destroy_ros_message = PyCapsule_New(
-    (void *)&chapt4_interfaces__srv__partol__request__destroy_ros_message,
+    (void *)&chapt4_interfaces__srv__patrol__request__destroy_ros_message,
     NULL, NULL);
   if (!pyobject_destroy_ros_message) {
     // previously added objects will be removed when the module is destroyed
@@ -535,7 +535,7 @@ _register_msg_type__srv__partol__request(PyObject * pymodule)
   }
   err = PyModule_AddObject(
     pymodule,
-    "destroy_ros_message_msg__srv__partol__request",
+    "destroy_ros_message_msg__srv__patrol__request",
     pyobject_destroy_ros_message);
   if (err) {
     // the created capsule needs to be decremented
@@ -546,7 +546,7 @@ _register_msg_type__srv__partol__request(PyObject * pymodule)
 
   PyObject * pyobject_convert_from_py = NULL;
   pyobject_convert_from_py = PyCapsule_New(
-    (void *)&chapt4_interfaces__srv__partol__request__convert_from_py,
+    (void *)&chapt4_interfaces__srv__patrol__request__convert_from_py,
     NULL, NULL);
   if (!pyobject_convert_from_py) {
     // previously added objects will be removed when the module is destroyed
@@ -554,7 +554,7 @@ _register_msg_type__srv__partol__request(PyObject * pymodule)
   }
   err = PyModule_AddObject(
     pymodule,
-    "convert_from_py_msg__srv__partol__request",
+    "convert_from_py_msg__srv__patrol__request",
     pyobject_convert_from_py);
   if (err) {
     // the created capsule needs to be decremented
@@ -565,7 +565,7 @@ _register_msg_type__srv__partol__request(PyObject * pymodule)
 
   PyObject * pyobject_convert_to_py = NULL;
   pyobject_convert_to_py = PyCapsule_New(
-    (void *)&chapt4_interfaces__srv__partol__request__convert_to_py,
+    (void *)&chapt4_interfaces__srv__patrol__request__convert_to_py,
     NULL, NULL);
   if (!pyobject_convert_to_py) {
     // previously added objects will be removed when the module is destroyed
@@ -573,7 +573,7 @@ _register_msg_type__srv__partol__request(PyObject * pymodule)
   }
   err = PyModule_AddObject(
     pymodule,
-    "convert_to_py_msg__srv__partol__request",
+    "convert_to_py_msg__srv__patrol__request",
     pyobject_convert_to_py);
   if (err) {
     // the created capsule needs to be decremented
@@ -584,7 +584,7 @@ _register_msg_type__srv__partol__request(PyObject * pymodule)
 
   PyObject * pyobject_type_support = NULL;
   pyobject_type_support = PyCapsule_New(
-    (void *)ROSIDL_GET_MSG_TYPE_SUPPORT(chapt4_interfaces, srv, Partol_Request),
+    (void *)ROSIDL_GET_MSG_TYPE_SUPPORT(chapt4_interfaces, srv, Patrol_Request),
     NULL, NULL);
   if (!pyobject_type_support) {
     // previously added objects will be removed when the module is destroyed
@@ -592,7 +592,7 @@ _register_msg_type__srv__partol__request(PyObject * pymodule)
   }
   err = PyModule_AddObject(
     pymodule,
-    "type_support_msg__srv__partol__request",
+    "type_support_msg__srv__patrol__request",
     pyobject_type_support);
   if (err) {
     // the created capsule needs to be decremented
@@ -616,41 +616,41 @@ _register_msg_type__srv__partol__request(PyObject * pymodule)
 // already included above
 // #include "rosidl_runtime_c/action_type_support_struct.h"
 // already included above
-// #include "chapt4_interfaces/srv/detail/partol__type_support.h"
+// #include "chapt4_interfaces/srv/detail/patrol__type_support.h"
 // already included above
-// #include "chapt4_interfaces/srv/detail/partol__struct.h"
+// #include "chapt4_interfaces/srv/detail/patrol__struct.h"
 // already included above
-// #include "chapt4_interfaces/srv/detail/partol__functions.h"
+// #include "chapt4_interfaces/srv/detail/patrol__functions.h"
 
-static void * chapt4_interfaces__srv__partol__response__create_ros_message(void)
+static void * chapt4_interfaces__srv__patrol__response__create_ros_message(void)
 {
-  return chapt4_interfaces__srv__Partol_Response__create();
+  return chapt4_interfaces__srv__Patrol_Response__create();
 }
 
-static void chapt4_interfaces__srv__partol__response__destroy_ros_message(void * raw_ros_message)
+static void chapt4_interfaces__srv__patrol__response__destroy_ros_message(void * raw_ros_message)
 {
-  chapt4_interfaces__srv__Partol_Response * ros_message = (chapt4_interfaces__srv__Partol_Response *)raw_ros_message;
-  chapt4_interfaces__srv__Partol_Response__destroy(ros_message);
+  chapt4_interfaces__srv__Patrol_Response * ros_message = (chapt4_interfaces__srv__Patrol_Response *)raw_ros_message;
+  chapt4_interfaces__srv__Patrol_Response__destroy(ros_message);
 }
 
 ROSIDL_GENERATOR_C_IMPORT
-bool chapt4_interfaces__srv__partol__response__convert_from_py(PyObject * _pymsg, void * ros_message);
+bool chapt4_interfaces__srv__patrol__response__convert_from_py(PyObject * _pymsg, void * ros_message);
 ROSIDL_GENERATOR_C_IMPORT
-PyObject * chapt4_interfaces__srv__partol__response__convert_to_py(void * raw_ros_message);
+PyObject * chapt4_interfaces__srv__patrol__response__convert_to_py(void * raw_ros_message);
 
 
 ROSIDL_GENERATOR_C_IMPORT
 const rosidl_message_type_support_t *
-ROSIDL_GET_MSG_TYPE_SUPPORT(chapt4_interfaces, srv, Partol_Response);
+ROSIDL_GET_MSG_TYPE_SUPPORT(chapt4_interfaces, srv, Patrol_Response);
 
 int8_t
-_register_msg_type__srv__partol__response(PyObject * pymodule)
+_register_msg_type__srv__patrol__response(PyObject * pymodule)
 {
   int8_t err;
 
   PyObject * pyobject_create_ros_message = NULL;
   pyobject_create_ros_message = PyCapsule_New(
-    (void *)&chapt4_interfaces__srv__partol__response__create_ros_message,
+    (void *)&chapt4_interfaces__srv__patrol__response__create_ros_message,
     NULL, NULL);
   if (!pyobject_create_ros_message) {
     // previously added objects will be removed when the module is destroyed
@@ -658,7 +658,7 @@ _register_msg_type__srv__partol__response(PyObject * pymodule)
   }
   err = PyModule_AddObject(
     pymodule,
-    "create_ros_message_msg__srv__partol__response",
+    "create_ros_message_msg__srv__patrol__response",
     pyobject_create_ros_message);
   if (err) {
     // the created capsule needs to be decremented
@@ -669,7 +669,7 @@ _register_msg_type__srv__partol__response(PyObject * pymodule)
 
   PyObject * pyobject_destroy_ros_message = NULL;
   pyobject_destroy_ros_message = PyCapsule_New(
-    (void *)&chapt4_interfaces__srv__partol__response__destroy_ros_message,
+    (void *)&chapt4_interfaces__srv__patrol__response__destroy_ros_message,
     NULL, NULL);
   if (!pyobject_destroy_ros_message) {
     // previously added objects will be removed when the module is destroyed
@@ -677,7 +677,7 @@ _register_msg_type__srv__partol__response(PyObject * pymodule)
   }
   err = PyModule_AddObject(
     pymodule,
-    "destroy_ros_message_msg__srv__partol__response",
+    "destroy_ros_message_msg__srv__patrol__response",
     pyobject_destroy_ros_message);
   if (err) {
     // the created capsule needs to be decremented
@@ -688,7 +688,7 @@ _register_msg_type__srv__partol__response(PyObject * pymodule)
 
   PyObject * pyobject_convert_from_py = NULL;
   pyobject_convert_from_py = PyCapsule_New(
-    (void *)&chapt4_interfaces__srv__partol__response__convert_from_py,
+    (void *)&chapt4_interfaces__srv__patrol__response__convert_from_py,
     NULL, NULL);
   if (!pyobject_convert_from_py) {
     // previously added objects will be removed when the module is destroyed
@@ -696,7 +696,7 @@ _register_msg_type__srv__partol__response(PyObject * pymodule)
   }
   err = PyModule_AddObject(
     pymodule,
-    "convert_from_py_msg__srv__partol__response",
+    "convert_from_py_msg__srv__patrol__response",
     pyobject_convert_from_py);
   if (err) {
     // the created capsule needs to be decremented
@@ -707,7 +707,7 @@ _register_msg_type__srv__partol__response(PyObject * pymodule)
 
   PyObject * pyobject_convert_to_py = NULL;
   pyobject_convert_to_py = PyCapsule_New(
-    (void *)&chapt4_interfaces__srv__partol__response__convert_to_py,
+    (void *)&chapt4_interfaces__srv__patrol__response__convert_to_py,
     NULL, NULL);
   if (!pyobject_convert_to_py) {
     // previously added objects will be removed when the module is destroyed
@@ -715,7 +715,7 @@ _register_msg_type__srv__partol__response(PyObject * pymodule)
   }
   err = PyModule_AddObject(
     pymodule,
-    "convert_to_py_msg__srv__partol__response",
+    "convert_to_py_msg__srv__patrol__response",
     pyobject_convert_to_py);
   if (err) {
     // the created capsule needs to be decremented
@@ -726,7 +726,7 @@ _register_msg_type__srv__partol__response(PyObject * pymodule)
 
   PyObject * pyobject_type_support = NULL;
   pyobject_type_support = PyCapsule_New(
-    (void *)ROSIDL_GET_MSG_TYPE_SUPPORT(chapt4_interfaces, srv, Partol_Response),
+    (void *)ROSIDL_GET_MSG_TYPE_SUPPORT(chapt4_interfaces, srv, Patrol_Response),
     NULL, NULL);
   if (!pyobject_type_support) {
     // previously added objects will be removed when the module is destroyed
@@ -734,7 +734,7 @@ _register_msg_type__srv__partol__response(PyObject * pymodule)
   }
   err = PyModule_AddObject(
     pymodule,
-    "type_support_msg__srv__partol__response",
+    "type_support_msg__srv__patrol__response",
     pyobject_type_support);
   if (err) {
     // the created capsule needs to be decremented
@@ -758,41 +758,41 @@ _register_msg_type__srv__partol__response(PyObject * pymodule)
 // already included above
 // #include "rosidl_runtime_c/action_type_support_struct.h"
 // already included above
-// #include "chapt4_interfaces/srv/detail/partol__type_support.h"
+// #include "chapt4_interfaces/srv/detail/patrol__type_support.h"
 // already included above
-// #include "chapt4_interfaces/srv/detail/partol__struct.h"
+// #include "chapt4_interfaces/srv/detail/patrol__struct.h"
 // already included above
-// #include "chapt4_interfaces/srv/detail/partol__functions.h"
+// #include "chapt4_interfaces/srv/detail/patrol__functions.h"
 
-static void * chapt4_interfaces__srv__partol__event__create_ros_message(void)
+static void * chapt4_interfaces__srv__patrol__event__create_ros_message(void)
 {
-  return chapt4_interfaces__srv__Partol_Event__create();
+  return chapt4_interfaces__srv__Patrol_Event__create();
 }
 
-static void chapt4_interfaces__srv__partol__event__destroy_ros_message(void * raw_ros_message)
+static void chapt4_interfaces__srv__patrol__event__destroy_ros_message(void * raw_ros_message)
 {
-  chapt4_interfaces__srv__Partol_Event * ros_message = (chapt4_interfaces__srv__Partol_Event *)raw_ros_message;
-  chapt4_interfaces__srv__Partol_Event__destroy(ros_message);
+  chapt4_interfaces__srv__Patrol_Event * ros_message = (chapt4_interfaces__srv__Patrol_Event *)raw_ros_message;
+  chapt4_interfaces__srv__Patrol_Event__destroy(ros_message);
 }
 
 ROSIDL_GENERATOR_C_IMPORT
-bool chapt4_interfaces__srv__partol__event__convert_from_py(PyObject * _pymsg, void * ros_message);
+bool chapt4_interfaces__srv__patrol__event__convert_from_py(PyObject * _pymsg, void * ros_message);
 ROSIDL_GENERATOR_C_IMPORT
-PyObject * chapt4_interfaces__srv__partol__event__convert_to_py(void * raw_ros_message);
+PyObject * chapt4_interfaces__srv__patrol__event__convert_to_py(void * raw_ros_message);
 
 
 ROSIDL_GENERATOR_C_IMPORT
 const rosidl_message_type_support_t *
-ROSIDL_GET_MSG_TYPE_SUPPORT(chapt4_interfaces, srv, Partol_Event);
+ROSIDL_GET_MSG_TYPE_SUPPORT(chapt4_interfaces, srv, Patrol_Event);
 
 int8_t
-_register_msg_type__srv__partol__event(PyObject * pymodule)
+_register_msg_type__srv__patrol__event(PyObject * pymodule)
 {
   int8_t err;
 
   PyObject * pyobject_create_ros_message = NULL;
   pyobject_create_ros_message = PyCapsule_New(
-    (void *)&chapt4_interfaces__srv__partol__event__create_ros_message,
+    (void *)&chapt4_interfaces__srv__patrol__event__create_ros_message,
     NULL, NULL);
   if (!pyobject_create_ros_message) {
     // previously added objects will be removed when the module is destroyed
@@ -800,7 +800,7 @@ _register_msg_type__srv__partol__event(PyObject * pymodule)
   }
   err = PyModule_AddObject(
     pymodule,
-    "create_ros_message_msg__srv__partol__event",
+    "create_ros_message_msg__srv__patrol__event",
     pyobject_create_ros_message);
   if (err) {
     // the created capsule needs to be decremented
@@ -811,7 +811,7 @@ _register_msg_type__srv__partol__event(PyObject * pymodule)
 
   PyObject * pyobject_destroy_ros_message = NULL;
   pyobject_destroy_ros_message = PyCapsule_New(
-    (void *)&chapt4_interfaces__srv__partol__event__destroy_ros_message,
+    (void *)&chapt4_interfaces__srv__patrol__event__destroy_ros_message,
     NULL, NULL);
   if (!pyobject_destroy_ros_message) {
     // previously added objects will be removed when the module is destroyed
@@ -819,7 +819,7 @@ _register_msg_type__srv__partol__event(PyObject * pymodule)
   }
   err = PyModule_AddObject(
     pymodule,
-    "destroy_ros_message_msg__srv__partol__event",
+    "destroy_ros_message_msg__srv__patrol__event",
     pyobject_destroy_ros_message);
   if (err) {
     // the created capsule needs to be decremented
@@ -830,7 +830,7 @@ _register_msg_type__srv__partol__event(PyObject * pymodule)
 
   PyObject * pyobject_convert_from_py = NULL;
   pyobject_convert_from_py = PyCapsule_New(
-    (void *)&chapt4_interfaces__srv__partol__event__convert_from_py,
+    (void *)&chapt4_interfaces__srv__patrol__event__convert_from_py,
     NULL, NULL);
   if (!pyobject_convert_from_py) {
     // previously added objects will be removed when the module is destroyed
@@ -838,7 +838,7 @@ _register_msg_type__srv__partol__event(PyObject * pymodule)
   }
   err = PyModule_AddObject(
     pymodule,
-    "convert_from_py_msg__srv__partol__event",
+    "convert_from_py_msg__srv__patrol__event",
     pyobject_convert_from_py);
   if (err) {
     // the created capsule needs to be decremented
@@ -849,7 +849,7 @@ _register_msg_type__srv__partol__event(PyObject * pymodule)
 
   PyObject * pyobject_convert_to_py = NULL;
   pyobject_convert_to_py = PyCapsule_New(
-    (void *)&chapt4_interfaces__srv__partol__event__convert_to_py,
+    (void *)&chapt4_interfaces__srv__patrol__event__convert_to_py,
     NULL, NULL);
   if (!pyobject_convert_to_py) {
     // previously added objects will be removed when the module is destroyed
@@ -857,7 +857,7 @@ _register_msg_type__srv__partol__event(PyObject * pymodule)
   }
   err = PyModule_AddObject(
     pymodule,
-    "convert_to_py_msg__srv__partol__event",
+    "convert_to_py_msg__srv__patrol__event",
     pyobject_convert_to_py);
   if (err) {
     // the created capsule needs to be decremented
@@ -868,7 +868,7 @@ _register_msg_type__srv__partol__event(PyObject * pymodule)
 
   PyObject * pyobject_type_support = NULL;
   pyobject_type_support = PyCapsule_New(
-    (void *)ROSIDL_GET_MSG_TYPE_SUPPORT(chapt4_interfaces, srv, Partol_Event),
+    (void *)ROSIDL_GET_MSG_TYPE_SUPPORT(chapt4_interfaces, srv, Patrol_Event),
     NULL, NULL);
   if (!pyobject_type_support) {
     // previously added objects will be removed when the module is destroyed
@@ -876,7 +876,7 @@ _register_msg_type__srv__partol__event(PyObject * pymodule)
   }
   err = PyModule_AddObject(
     pymodule,
-    "type_support_msg__srv__partol__event",
+    "type_support_msg__srv__patrol__event",
     pyobject_type_support);
   if (err) {
     // the created capsule needs to be decremented
@@ -889,15 +889,15 @@ _register_msg_type__srv__partol__event(PyObject * pymodule)
 
 ROSIDL_GENERATOR_C_IMPORT
 const rosidl_service_type_support_t *
-ROSIDL_TYPESUPPORT_INTERFACE__SERVICE_SYMBOL_NAME(rosidl_typesupport_c, chapt4_interfaces, srv, Partol)();
+ROSIDL_TYPESUPPORT_INTERFACE__SERVICE_SYMBOL_NAME(rosidl_typesupport_c, chapt4_interfaces, srv, Patrol)();
 
 int8_t
-_register_srv_type__srv__partol(PyObject * pymodule)
+_register_srv_type__srv__patrol(PyObject * pymodule)
 {
   int8_t err;
   PyObject * pyobject_type_support = NULL;
   pyobject_type_support = PyCapsule_New(
-    (void *)ROSIDL_TYPESUPPORT_INTERFACE__SERVICE_SYMBOL_NAME(rosidl_typesupport_c, chapt4_interfaces, srv, Partol)(),
+    (void *)ROSIDL_TYPESUPPORT_INTERFACE__SERVICE_SYMBOL_NAME(rosidl_typesupport_c, chapt4_interfaces, srv, Patrol)(),
     NULL, NULL);
   if (!pyobject_type_support) {
     // previously added objects will be removed when the module is destroyed
@@ -905,7 +905,7 @@ _register_srv_type__srv__partol(PyObject * pymodule)
   }
   err = PyModule_AddObject(
     pymodule,
-    "type_support_srv__srv__partol",
+    "type_support_srv__srv__patrol",
     pyobject_type_support);
   if (err) {
     // the created capsule needs to be decremented
@@ -950,25 +950,25 @@ PyInit_chapt4_interfaces_s__rosidl_typesupport_c(void)
     return NULL;
   }
 
-  err = _register_msg_type__srv__partol__request(pymodule);
+  err = _register_msg_type__srv__patrol__request(pymodule);
   if (err) {
     Py_XDECREF(pymodule);
     return NULL;
   }
 
-  err = _register_msg_type__srv__partol__response(pymodule);
+  err = _register_msg_type__srv__patrol__response(pymodule);
   if (err) {
     Py_XDECREF(pymodule);
     return NULL;
   }
 
-  err = _register_msg_type__srv__partol__event(pymodule);
+  err = _register_msg_type__srv__patrol__event(pymodule);
   if (err) {
     Py_XDECREF(pymodule);
     return NULL;
   }
 
-  err = _register_srv_type__srv__partol(pymodule);
+  err = _register_srv_type__srv__patrol(pymodule);
   if (err) {
     Py_XDECREF(pymodule);
     return NULL;

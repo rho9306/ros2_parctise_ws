@@ -237,6 +237,6 @@ CMakeFiles/chapt4_interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/cha
  /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.h \
  /opt/ros/jazzy/include/service_msgs/service_msgs/msg/detail/service_event_info__struct.h \
  /home/rho9/chapt4/chapt4_ws/build/chapt4_interfaces/rosidl_generator_c/chapt4_interfaces/srv/detail/face_detector__functions.h \
- /home/rho9/chapt4/chapt4_ws/build/chapt4_interfaces/rosidl_generator_c/chapt4_interfaces/srv/detail/partol__type_support.h \
- /home/rho9/chapt4/chapt4_ws/build/chapt4_interfaces/rosidl_generator_c/chapt4_interfaces/srv/detail/partol__struct.h \
- /home/rho9/chapt4/chapt4_ws/build/chapt4_interfaces/rosidl_generator_c/chapt4_interfaces/srv/detail/partol__functions.h
+ /home/rho9/chapt4/chapt4_ws/build/chapt4_interfaces/rosidl_generator_c/chapt4_interfaces/srv/detail/patrol__type_support.h \
+ /home/rho9/chapt4/chapt4_ws/build/chapt4_interfaces/rosidl_generator_c/chapt4_interfaces/srv/detail/patrol__struct.h \
+ /home/rho9/chapt4/chapt4_ws/build/chapt4_interfaces/rosidl_generator_c/chapt4_interfaces/srv/detail/patrol__functions.h

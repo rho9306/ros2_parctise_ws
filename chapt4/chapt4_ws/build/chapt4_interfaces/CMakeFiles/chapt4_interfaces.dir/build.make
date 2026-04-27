@@ -67,7 +67,7 @@ include CMakeFiles/chapt4_interfaces.dir/compiler_depend.make
 include CMakeFiles/chapt4_interfaces.dir/progress.make
 
 CMakeFiles/chapt4_interfaces: /home/rho9/chapt4/chapt4_ws/src/chapt4_interfaces/srv/FaceDetector.srv
-CMakeFiles/chapt4_interfaces: /home/rho9/chapt4/chapt4_ws/src/chapt4_interfaces/srv/Partol.srv
+CMakeFiles/chapt4_interfaces: /home/rho9/chapt4/chapt4_ws/src/chapt4_interfaces/srv/Patrol.srv
 CMakeFiles/chapt4_interfaces: /opt/ros/jazzy/share/sensor_msgs/msg/BatteryState.idl
 CMakeFiles/chapt4_interfaces: /opt/ros/jazzy/share/sensor_msgs/msg/CameraInfo.idl
 CMakeFiles/chapt4_interfaces: /opt/ros/jazzy/share/sensor_msgs/msg/ChannelFloat32.idl
