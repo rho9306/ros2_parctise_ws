@@ -1,0 +1,5 @@
+  File "/home/rho922/chapt7/chapt7_ws/install/autopartol_robot/lib/python3.10/site-packages/autopartol_robot/partol_node.py", line 60
+    self.get_logger().info(fDistance
+                          ^
+SyntaxError: '(' was never closed
+

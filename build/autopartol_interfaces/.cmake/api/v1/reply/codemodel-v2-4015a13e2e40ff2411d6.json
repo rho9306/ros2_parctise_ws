@@ -1,0 +1,258 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-acfcd7691c9579ad64eb.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						17,
+						18
+					]
+				},
+				{
+					"build" : "autopartol_interfaces__py",
+					"jsonFile" : "directory-autopartol_interfaces__py-475d69e17d5b9696caf5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/rho922/chapt7/chapt7_ws/build/autopartol_interfaces/autopartol_interfaces__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "autopartol_interfaces__rs",
+					"jsonFile" : "directory-autopartol_interfaces__rs-4af5d264efb89fa80ad1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/rho922/chapt7/chapt7_ws/build/autopartol_interfaces/autopartol_interfaces__rs",
+					"targetIndexes" : 
+					[
+						16
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "autopartol_interfaces",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_autopartol_interfaces_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_autopartol_interfaces_egg-eb57d7d7ee28906b9952.json",
+					"name" : "ament_cmake_python_build_autopartol_interfaces_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_autopartol_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_autopartol_interfaces-f723fe851b7fbc043c20.json",
+					"name" : "ament_cmake_python_copy_autopartol_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "autopartol_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-autopartol_interfaces-d4fecf810ba397c6e484.json",
+					"name" : "autopartol_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "autopartol_interfaces__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-autopartol_interfaces__cpp-960246d7baa10d1ce6c7.json",
+					"name" : "autopartol_interfaces__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "autopartol_interfaces__py::@86dcb9279521a12f7373",
+					"jsonFile" : "target-autopartol_interfaces__py-aa43119ba08e1a7d0128.json",
+					"name" : "autopartol_interfaces__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "autopartol_interfaces__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-autopartol_interfaces__rosidl_generator_c-1e5970ffcf4fd41dead3.json",
+					"name" : "autopartol_interfaces__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "autopartol_interfaces__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-autopartol_interfaces__rosidl_generator_py-6d18ed8699a1b7a01800.json",
+					"name" : "autopartol_interfaces__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "autopartol_interfaces__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-autopartol_interfaces__rosidl_typesupport_c-0b1f854933f2e3eda599.json",
+					"name" : "autopartol_interfaces__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "autopartol_interfaces__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-autopartol_interfaces__rosidl_typesupport_c__pyext-c9c48773ac3f1b613bb6.json",
+					"name" : "autopartol_interfaces__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "autopartol_interfaces__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-autopartol_interfaces__rosidl_typesupport_cpp-28170f268bcc24d50619.json",
+					"name" : "autopartol_interfaces__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "autopartol_interfaces__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-autopartol_interfaces__rosidl_typesupport_fastrtps_c-f58f53c8a5ae20c6ff97.json",
+					"name" : "autopartol_interfaces__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "autopartol_interfaces__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-autopartol_interfaces__rosidl_typesupport_fastrtps_c__pyext-ccd3b2ff1ece8c0fc8c8.json",
+					"name" : "autopartol_interfaces__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "autopartol_interfaces__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-autopartol_interfaces__rosidl_typesupport_fastrtps_cpp-9de0c6c0a598accc8a8a.json",
+					"name" : "autopartol_interfaces__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "autopartol_interfaces__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-autopartol_interfaces__rosidl_typesupport_introspection_c-2b16ccdd1179cdce37b6.json",
+					"name" : "autopartol_interfaces__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "autopartol_interfaces__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-autopartol_interfaces__rosidl_typesupport_introspection_c__pyext-79e2d3fa739b582618a5.json",
+					"name" : "autopartol_interfaces__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "autopartol_interfaces__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-autopartol_interfaces__rosidl_typesupport_introspection_cpp-e8b49aa44020c5e4ac4e.json",
+					"name" : "autopartol_interfaces__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "autopartol_interfaces__rs::@9cf24495d6f022b44eaf",
+					"jsonFile" : "target-autopartol_interfaces__rs-3a27b75a97a6d5690a9b.json",
+					"name" : "autopartol_interfaces__rs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "autopartol_interfaces_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-autopartol_interfaces_uninstall-cc74c8a8f733983d2f1e.json",
+					"name" : "autopartol_interfaces_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-538f8390292b2784a32b.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/rho922/chapt7/chapt7_ws/build/autopartol_interfaces",
+		"source" : "/home/rho922/chapt7/chapt7_ws/src/autopartol_interfaces"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
