@@ -1,4 +1,0 @@
-[31mCMake Error at CMakeLists.txt:13 (rosidl_genterate_interfaces):
-  Unknown CMake command "rosidl_genterate_interfaces".
-
-[0m
