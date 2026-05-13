@@ -1,2 +1,0 @@
-Invoking command in '/home/rho9/chapt3/topic_ws/build/demo_cpp_topic': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/rho9/chapt3/topic_ws/build/demo_cpp_topic -- -j20 -l20
-Invoked command in '/home/rho9/chapt3/topic_ws/build/demo_cpp_topic' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/rho9/chapt3/topic_ws/build/demo_cpp_topic -- -j20 -l20
