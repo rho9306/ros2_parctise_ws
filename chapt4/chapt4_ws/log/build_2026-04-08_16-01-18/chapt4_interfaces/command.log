@@ -1,2 +1,0 @@
-Invoking command in '/home/rho9/chapt4/chapt4_ws/build/chapt4_interfaces': /usr/bin/cmake --build /home/rho9/chapt4/chapt4_ws/build/chapt4_interfaces -- -j20 -l20
-Invoked command in '/home/rho9/chapt4/chapt4_ws/build/chapt4_interfaces' returned '2': /usr/bin/cmake --build /home/rho9/chapt4/chapt4_ws/build/chapt4_interfaces -- -j20 -l20

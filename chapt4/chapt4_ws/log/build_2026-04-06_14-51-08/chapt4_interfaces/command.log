@@ -1,2 +1,0 @@
-Invoking command in '/home/rho9/chapt4/chapt4_ws/build/chapt4_interfaces': /usr/bin/cmake /home/rho9/chapt4/chapt4_ws/src/chapt4_interfaces -DCMAKE_INSTALL_PREFIX=/home/rho9/chapt4/chapt4_ws/install/chapt4_interfaces
-Invoked command in '/home/rho9/chapt4/chapt4_ws/build/chapt4_interfaces' returned '1': /usr/bin/cmake /home/rho9/chapt4/chapt4_ws/src/chapt4_interfaces -DCMAKE_INSTALL_PREFIX=/home/rho9/chapt4/chapt4_ws/install/chapt4_interfaces
